@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
+//add function that actually do things
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
@@ -17,7 +18,65 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
+          <Card className="w-full max-w-md">
+            <CardHeader>
+              <CardTitle>Kiera's Song</CardTitle>
+              <CardDescription>
+                Frank Sinatra - My Way
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              And now, the end is near
+              And so I face the final curtain
+              My friend, I'll say it clear
+              I'll state my case, of which I'm certain
+              I've lived a life that's full
+              I traveled each and every highway
+              And more, much more than this
+              I did it my wayng
+            </CardContent>
+            <CardFooter>Aman</CardFooter>
+          </Card>
+          <Card className="w-full max-w-md">
+            <CardHeader>
+              <CardTitle>Kiera's Song</CardTitle>
+              <CardDescription>
+                Frank Sinatra - My Way
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              And now, the end is near
+              And so I face the final curtain
+              My friend, I'll say it clear
+              I'll state my case, of which I'm certain
+              I've lived a life that's full
+              I traveled each and every highway
+              And more, much more than this
+              I did it my wayng
+            </CardContent>
+            <CardFooter>Aman</CardFooter>
+          </Card>
+          <Card className="w-full max-w-md">
+            <CardHeader>
+              <CardTitle>Kiera's Song</CardTitle>
+              <CardDescription>
+                Frank Sinatra - My Way
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              And now, the end is near
+              And so I face the final curtain
+              My friend, I'll say it clear
+              I'll state my case, of which I'm certain
+              I've lived a life that's full
+              I traveled each and every highway
+              And more, much more than this
+              I did it my wayng
+            </CardContent>
+            <CardFooter>Aman</CardFooter>
+          </Card>
+        </div>
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
             className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
